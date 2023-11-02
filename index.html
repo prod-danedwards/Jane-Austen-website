@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    const counter = document.querySelector('#page-view-count');
+    counter.innerText++;
+    localStorage.setItem('pageViewCount', counter.innerText);
     <link rel="shortcut icon" type="image/png" href="https://github.com/prod-danedwards/Jane-Austen-website/blob/main/Jane%20Austen%20favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="device-width, initial scale=1">
