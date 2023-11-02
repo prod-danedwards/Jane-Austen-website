@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+body {
+    font-family: Helvetica, sans-serif;
+  }
+  h1,h2,h3 {
+    font-family: Georgia, serif;
+  }
+hr {
+    border-top: 5px solid #F9429E;
+}
+.page-visit-counter {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9429E;
+    text-align: center;
+  }
